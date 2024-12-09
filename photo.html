@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">← Back to Gallery</a>
+    </header>
+    <main>
+        <img id="photo" src="" alt="">
+        <p id="caption"></p>
+        <a id="music" href="" target="_blank">Play Music</a>
+    </main>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById('photo').src = params.get('src');
+        document.getElementById('caption').textContent = params.get('caption');
+        document.getElementById('music').href = params.get('music');
+    </script>
+</body>
+</html>
