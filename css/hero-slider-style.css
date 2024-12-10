@@ -14,8 +14,8 @@ html { font-size: 62.5%; }
 body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
-  color: #2c343b;
-  background-color: #f2f2f2;
+  color: #ffffff;
+  background-color: #d8c7c7;
 }
 
 a {
@@ -37,7 +37,7 @@ Main Components
   left: 0;
   width: 100%;
   height: 50px;
-  background-color: #21272c;
+  background-color: #b0b6bb;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
