@@ -502,6 +502,12 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
     text-align: center;
 }
 
+.grid-item figure figcaption h2,
+.grid-item figure figcaption p {
+    margin: 0; /* Removes any default margins */
+    line-height: 1.5; /* Ensures proper spacing */
+}
+
 figure.effect-bubba {
     background-color: #9e5406;
 }
