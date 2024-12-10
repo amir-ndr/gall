@@ -729,7 +729,7 @@ h2 {
     .card-hover .reveal,
     .card-hover:hover .reveal {
         visibility: visible;
-        opacity: 0.5; /* Ensure consistency */
+        opacity: 1; /* Ensure consistency */
         position: relative;
         width: 100%;
         background-color: rgb(202, 184, 184); /* Match desktop */
