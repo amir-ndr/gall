@@ -507,7 +507,7 @@ figure.effect-bubba {
 }
 
 .cd-hero-slider .selected .cd-full-width figure.effect-bubba h2.tm-figure-title {
-    padding-top: 20%;
+    padding-top: 15%;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     -webkit-transform: translate3d(0,-20px,0);
@@ -608,6 +608,7 @@ figure.effect-bubba:hover p {
 
 .cd-hero-slider .selected .cd-full-width h2.tm-figure-title {
 	margin-bottom: 0;
+	text-align: center;
 }
 .cd-hero-slider .selected .cd-full-width p.tm-figure-description {
     font-weight: 400;
