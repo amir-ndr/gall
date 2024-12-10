@@ -681,9 +681,10 @@ figure.effect-bubba:hover p {
 	}
 
 	.tm-img-gallery-info-container {
-		padding: 30px;
+		/* padding: 0 11px 30px; */
 		max-width: 700px;
-		margin: auto;
+		/* margin: 0 auto 0 0; */
+		text-align: center;
 	}
 
 	.grid-item figure figcaption { padding: 1.5em; }	
