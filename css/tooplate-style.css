@@ -428,13 +428,12 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .tm-img {
 	max-width: 320px;
   	width: 100%;
-	aspect-ratio: 4 / 3;
   	height: auto;
   	border: none;
   	margin: 0 auto;
 }
 
-.tm-textbox-padding { padding: 35px 30px; }
+.tm-textbox-padding { padding: 25px 30px; }
 
 .cd-hero-slider h2.tm-contact-info {
 	color: black;
