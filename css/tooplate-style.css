@@ -433,7 +433,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
   	margin: 0 auto;
 }
 
-.tm-textbox-padding { padding: 20px 40px 20px 20px; }
+.tm-textbox-padding { padding: 10px 40px 20px 20px; }
 
 .cd-hero-slider h2.tm-contact-info {
 	color: black;
