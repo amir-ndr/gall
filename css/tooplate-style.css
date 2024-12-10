@@ -145,7 +145,7 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(1).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:focus {	
-	background-color: #021118;
+	background-color: #081c25;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
@@ -420,10 +420,9 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 .tm-img-gallery-info-container {
-	/* display: block; */
-	margin: auto;
-	padding: 40px;
-	/* text-align: center;	 */
+	display: block;
+	margin: 0 auto;
+	padding: 0 1px 30px;	
 }
 
 .tm-img {
@@ -682,10 +681,9 @@ figure.effect-bubba:hover p {
 	}
 
 	.tm-img-gallery-info-container {
-		/* padding: 0 11px 30px; */
+		padding: 0 11px 30px;
 		max-width: 700px;
-		/* margin: 0 auto 0 0; */
-		text-align: center;
+		margin: 0 auto 0 0;
 	}
 
 	.grid-item figure figcaption { padding: 1.5em; }	
