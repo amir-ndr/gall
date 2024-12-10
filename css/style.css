@@ -689,3 +689,58 @@ h2 {
 	text-decoration: none;
 	color: #000;
 }
+
+
+/* Desktop Styles for Hover */
+.card-hover .reveal {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out; /* Unified transition for all properties */
+}
+
+.card-hover:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 1; /* Keep opacity consistent */
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: white;
+}
+
+/* Text Style for Desktop */
+.reveal p {
+    line-height: 125%;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: all 0.5s ease-in-out; /* Match with reveal's transition */
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .card-hover .reveal,
+    .card-hover:hover .reveal {
+        visibility: visible;
+        opacity: 1; /* Ensure consistency */
+        position: relative;
+        width: 100%;
+        background-color: black; /* Match desktop */
+        color: white; /* Keep the text color white */
+        transition: all 0.5s ease-in-out; /* Keep consistent transitions */
+    }
+
+    .reveal p {
+        line-height: 125%;
+        font-size: 1.4rem; /* Adjust for mobile readability */
+        text-align: center; /* Center align text */
+        padding-top: 1rem;
+        transition: all 0.5s ease-in-out; /* Smooth transition for mobile too */
+    }
+}
