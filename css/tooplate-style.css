@@ -423,7 +423,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	/* display: block; */
 	margin: auto;
 	padding: 40px;
-	text-align: center;	
+	/* text-align: center;	 */
 }
 
 .tm-img {
