@@ -420,9 +420,10 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 }
 
 .tm-img-gallery-info-container {
-	display: block;
+	/* display: block; */
 	margin: auto;
-	padding: 30px;	
+	/* padding: 30px; */
+	text-align: center;	
 }
 
 .tm-img {
