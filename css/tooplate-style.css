@@ -131,12 +131,12 @@ button:focus { outline: none; }
 /* Hero Slider */
 .cd-hero-slider { height: 100vh; }
 .cd-hero-slider li { 
-	background-color: #c8cfd4;
+	background-color: #2c343b;
 	list-style: none; 
 }
 
 /* Background & menu colors */
-.cd-hero-slider li:nth-of-type(1) { background-color: rgba(4, 5, 5, 0.62); }
+.cd-hero-slider li:nth-of-type(1) { background-color: rgba(56, 182, 230, 0.62); }
 .cd-hero-slider li:nth-of-type(2) { background-color: rgba(237, 84, 76, 0.62); }
 .cd-hero-slider li:nth-of-type(3) { background-color: rgba(234, 163, 25, 0.62); }
 .cd-hero-slider li:nth-of-type(4) { background-color: rgba(22, 181, 163, 0.62); }
@@ -145,7 +145,7 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(1).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:focus {	
-	background-color: #081c25;
+	background-color: #38b6e6;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
@@ -173,7 +173,7 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(5) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(5) .nav-link:focus {
 	
-	background-color: #d0d5db;		
+	background-color: #447fca;		
 }
 
 .tm-bg-white-translucent { background-color: rgba(255,255,255,0.8); }
@@ -288,7 +288,7 @@ button:focus { outline: none; }
 
 .tm-submit-btn:hover,
 .tm-submit-btn:focus {
-	background-color: #b9c1cc;
+	background-color: #2277EE;
 }
 
 textarea { height: 168px; }
@@ -433,7 +433,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
   	margin: 0 auto;
 }
 
-.tm-textbox-padding { padding: 10px 40px 20px 20px; }
+.tm-textbox-padding { padding: 35px 30px; }
 
 .cd-hero-slider h2.tm-contact-info {
 	color: black;
@@ -487,14 +487,13 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centers content vertically */
+    justify-content: center;
     padding: 1em;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.25em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    text-align: center; /* Centers text horizontally */
 }
 
 .grid-item figure {
@@ -503,19 +502,12 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
     text-align: center;
 }
 
-.grid-item figure figcaption h2,
-.grid-item figure figcaption p {
-    margin: 0; /* Removes any default margins */
-    line-height: 1.5; /* Ensures proper spacing */
-}
-
 figure.effect-bubba {
     background-color: #9e5406;
 }
 
 .cd-hero-slider .selected .cd-full-width figure.effect-bubba h2.tm-figure-title {
     padding-top: 20%;
-	text-align: center;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     -webkit-transform: translate3d(0,-20px,0);
