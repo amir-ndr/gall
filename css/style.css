@@ -691,7 +691,7 @@ h2 {
 }
 
 
-/* Desktop Styles for Hover */
+/* Desktop Styles for Hover 
 .card-hover .reveal {
     visibility: hidden;
     opacity: 0.5;
@@ -702,26 +702,27 @@ h2 {
     width: 100%;
     background-color: rgb(66, 59, 59);
     color: white;
-    transition: all 0.5s ease-in-out; /* Unified transition for all properties */
+    transition: all 0.5s ease-in-out; 
 }
 
 .card-hover:hover .reveal {
     height: auto;
     visibility: visible;
-    opacity: opacity 1s ease;; /* Keep opacity consistent */
+    opacity: opacity 1s ease;; 
     position: absolute;
     top: 0;
     background-color: black;
     color: white;
 }
 
-/* Text Style for Desktop */
 .reveal p {
     line-height: 125%;
     font-size: 1.5rem;
     text-align: center;
-    transition: all 0.5s ease-in-out; /* Match with reveal's transition */
+    transition: all 0.5s ease-in-out; 
 }
+*/
+
 
 /* Mobile Styles */
 @media (max-width: 767px) {
