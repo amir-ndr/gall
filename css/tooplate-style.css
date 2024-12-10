@@ -421,7 +421,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 .tm-img-gallery-info-container {
 	/* display: block; */
-	margin: 0 10px 100px;
+	margin: 50 50px 50px;
 	padding: 40px;
 	text-align: center;	
 }
