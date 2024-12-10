@@ -145,7 +145,7 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(1).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(1) .nav-link:focus {	
-	background-color: #081c25;
+	background-color: #021118;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
