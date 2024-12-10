@@ -209,23 +209,23 @@ Single slide style
   background-repeat: no-repeat;
 }
 .cd-hero-slider li:first-of-type {
-  background-color: #2c343b;  
+  background-color: #e7dfdf;  
 }
 .cd-hero-slider li:nth-of-type(2) {
-  background-color: #3d4952;  
+  background-color: #c4cacf;  
 }
 .cd-hero-slider li:nth-of-type(3) {
   background-color: #cdcdcd;  
 }
 .cd-hero-slider li:nth-of-type(4) {
-  background-color: #2c343b;
+  background-color: #727679;
   
 }
 .cd-hero-slider li:nth-of-type(5) {
-  background-color: #2c343b;  
+  background-color: #5c6064;  
 }
 .cd-hero-slider li:nth-of-type(6) {
-  background-color: #2c343b;  
+  background-color: #7e8286;  
 }
 .cd-hero-slider .cd-full-width,
 .cd-hero-slider .cd-half-width {
