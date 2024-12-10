@@ -428,6 +428,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 .tm-img {
 	/* max-width: 320px; */
+	aspect-ratio: 4 / 3;
   	width: 100%;
   	height: 200px;
   	border: none;
