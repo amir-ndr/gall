@@ -708,7 +708,7 @@ h2 {
 .card-hover:hover .reveal {
     height: auto;
     visibility: visible;
-    opacity: 1; /* Keep opacity consistent */
+    opacity: 0.5; /* Keep opacity consistent */
     position: absolute;
     top: 0;
     background-color: black;
