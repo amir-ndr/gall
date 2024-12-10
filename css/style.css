@@ -74,6 +74,7 @@ h2 {
 }
 
 .navigation.container-fluid {
+	padding-top: 20px;
 	position: absolute;
 }
 
