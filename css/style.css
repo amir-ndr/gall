@@ -702,7 +702,7 @@ h2 {
     width: 100%;
     background-color: rgb(66, 59, 59);
     color: white;
-    transition: all 0.2s ease-in-out; /* Unified transition for all properties */
+    transition: all 0.5s ease-in-out; /* Unified transition for all properties */
 }
 
 .card-hover:hover .reveal {
@@ -732,7 +732,7 @@ h2 {
         position: relative;
         width: 100%;
         background-color: rgb(202, 184, 184); /* Match desktop */
-        color: white; /* Keep the text color white */
+        color: rgb(19, 3, 3); /* Keep the text color white */
         transition: all 0.5s ease-in-out; /* Keep consistent transitions */
     }
 
