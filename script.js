@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const photos = [
-        { src: "photos/photo1.jpg", caption: "Caption for Photo 1", music: "spotify-link-1" },
-        { src: "photos/photo2.jpg", caption: "Caption for Photo 2", music: "spotify-link-2" },
+        { src: "Photos/Aurora.HEIC", caption: "Caption for Photo 1", music: "spotify-link-1" },
+        { src: "Photos/Toronto.heic", caption: "Caption for Photo 2", music: "spotify-link-2" },
     ];
 
     const gallery = document.querySelector('.gallery');
