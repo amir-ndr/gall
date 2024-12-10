@@ -694,7 +694,7 @@ h2 {
 /* Desktop Styles for Hover */
 .card-hover .reveal {
     visibility: hidden;
-    opacity: 0.5;
+    opacity: 1;
     height: 0;
     padding: 0;
     position: absolute;
@@ -702,7 +702,7 @@ h2 {
     width: 100%;
     background-color: black;
     color: white;
-    transition: all 0.5s ease-in-out; /* Unified transition for all properties */
+    transition: all 0.2s ease-in-out; /* Unified transition for all properties */
 }
 
 .card-hover:hover .reveal {
@@ -728,7 +728,7 @@ h2 {
     .card-hover .reveal,
     .card-hover:hover .reveal {
         visibility: visible;
-        opacity: 1; /* Ensure consistency */
+        opacity: 0.5; /* Ensure consistency */
         position: relative;
         width: 100%;
         background-color: black; /* Match desktop */
