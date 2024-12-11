@@ -725,12 +725,7 @@ h2 {
 
 @media only screen and (min-width: 600px) {
 	.tm-footer { padding: 50px 30px 20px; }
-	.tm-copyright-text { width: auto; }
 }
-
-/*@media only screen and (min-width: 652px) {
-	.tm-img-gallery-container-2 { max-width: 906px; }
-}*/
 
 @media only screen and (min-width: 720px) {	
 	.tm-footer { 
@@ -741,6 +736,10 @@ h2 {
 	.tm-copyright-text { margin-top: 0; }
 }
 
+@media only screen and (min-width: 992px) {
+
+	.tm-social-icons-container { margin-bottom: 20px; }
+}
 
 /* Desktop Styles for Hover 
 .card-hover .reveal {
